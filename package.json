@@ -1,7 +1,7 @@
 {
   "name": "ga-art",
   "version": "0.0.0",
-  "description": "TODO: add desc",
+  "description": "use genetic algorithm to generate art image",
   "keywords": [],
   "author": {
     "name": "Beeno Tung",
