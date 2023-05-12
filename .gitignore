@@ -1,0 +1,7 @@
+node_modules/
+dist/
+*-lock.*
+*.lock
+.*-debug.log
+*.tsbuildinfo
+.env

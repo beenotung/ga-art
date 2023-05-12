@@ -1,0 +1,25 @@
+{
+  "name": "ga-art",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc --noEmit",
+    "build": "esbuild --bundle src/main.ts --outfile=dist/bundle.js",
+    "watch": "npm run build -- --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.1.2",
+    "esbuild": "^0.17.17",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "dom-proxy": "^2.0.0",
+    "ga-island": "^3.0.0"
+  }
+}
