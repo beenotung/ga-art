@@ -1,0 +1,16 @@
+{
+  "name": "ga-art",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "esbuild main.ts --bundle --outfile=bundle.js --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.17.19",
+    "typescript": "^5.0.4"
+  }
+}
